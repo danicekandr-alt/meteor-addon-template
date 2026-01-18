@@ -1,3 +1,5 @@
+import com.example.addon.modules.ElytraPiglinsESP;
+
 package com.example.addon;
 
 import com.example.addon.commands.CommandExample;
