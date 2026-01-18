@@ -81,7 +81,7 @@ public class ElytraPiglinsESP extends Module {
                 bb.maxX, bb.maxY, bb.maxZ,
                 lineColor.get(), lineColor.get(),
                 (meteordevelopment.meteorclient.renderer.ShapeMode) meteordevelopment.meteorclient.renderer.ShapeMode.Lines,
-                lineWidth.get().floatValue()
+                (int) Math.round(lineWidth.get())
             );
         }
     }
